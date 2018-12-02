@@ -5,7 +5,7 @@
 %global provider_prefix %{provider}.%{provider_tld}/%{project}/%{repo}
 
 Name:           mako
-Version:        1.1
+Version:        1.2
 Release:        1%{?dist}
 Summary:        A lightweight notification daemon for Wayland.
 License:        MIT
@@ -49,5 +49,8 @@ BuildRequires:  pango-devel
 %{_bindir}/mako
 
 %changelog
+* Sat Dec 2 2018 Sergey Korolev <korolev.srg@gmail.com> - 1.2-1
+- Update package
+
 * Sat Oct 20 2018 Sergey Korolev <korolev.srg@gmail.com> - 1.1-1
 - Initial package
